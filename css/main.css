@@ -9,19 +9,19 @@
 	top:0;
 	left:0;
 	width:100%;
-	z-index:10
+	z-index:1000;
 
-	filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
-    filter: gray; /* IE6-9 */
-    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+	//filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+    //filter: gray; /* IE6-9 */
+    //-webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
 
 .content{
 	margin:64px 0 0;
 
-	filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
-    filter: gray; /* IE6-9 */
-    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+	//filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+    //filter: gray; /* IE6-9 */
+    //-webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
 
 
