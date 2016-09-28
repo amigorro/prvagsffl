@@ -17,26 +17,34 @@
 }
 
 .content{
-	margin:64px 0 0;
-
+	margin:64px 0 0 0;
+	width: 100% !important;
 	//filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
     //filter: gray; /* IE6-9 */
     //-webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
-
+.secc01{
+	width: 100%;
+	//background-color: #FFF;
+}
 
 .op_liga {
-	margin: 20px auto;
-	width: 200px;
+	//float: left;
+	margin:10px auto;
+	width: 130px;
 	background-color: #FFC926;
 	text-align: center;
 	border-radius: 10px;
-	padding: 10px;
+	padding: 8px;
 }
+
+
+
 
 .op_liga:hover{
 	background-color: #FB982B;
 }
+
 
 a,a:hover,a:visited {
 	text-decoration: none;
