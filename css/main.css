@@ -40,7 +40,7 @@
 }
 
 
-
+	
 
 .op_liga:hover{
 	background-color: #FB982B;
@@ -70,9 +70,7 @@ h6 {
 	margin: 7px;
 
 
-	filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
-    filter: gray; /* IE6-9 */
-    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+	
 }
 
 .back {
@@ -117,3 +115,27 @@ h6 {
 	width:30px;
 	margin: 7px;
 }
+
+.gris {
+	filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+.negrita {
+	font-weight: bold;
+}
+
+.bye {
+	background-color: #000;
+}
+
+.tocho7 tr:nth-child(10){background-color: #BBB;}
+.tocho7 tr:nth-child(11){background-color: #BBB;}
+.tocho7 tr:nth-child(12){background-color: #BBB;}
+.tocho7 tr:nth-child(13){background-color: #BBB;}
+.tocho7 tr:nth-child(14){background-color: #BBB;}
+.tocho7 tr:nth-child(15){background-color: #BBB;}
+.tocho7 tr:nth-child(16){background-color: #BBB;}
+.tocho7 tr:nth-child(17){background-color: #BBB;}
+.tocho7 tr:nth-child(18){background-color: #BBB;}
